@@ -1,0 +1,28 @@
+{
+  "name": "2entrega-juan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/index.scss css/translated.css -w",
+    "watch-css": "nodemon -e scss -x \"npm run sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmnz99/2entrega-juan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanmnz99/2entrega-juan/issues"
+  },
+  "homepage": "https://github.com/juanmnz99/2entrega-juan#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
